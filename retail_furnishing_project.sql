@@ -3,7 +3,12 @@
 ------- tổng quan về sản phẩm
 --- ở mỗi năm,mỗi  nhóm sub-category có bao nhiêu items
 
-select *
+select 
+	year,
+	Bookcases,
+	Chairs,
+	Furnishings,
+	Tables
 from
 	(
 	select
