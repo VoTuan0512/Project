@@ -114,7 +114,14 @@ as
 		from cte2),
 		cte4 as (
 			select
-				*
+				year,
+				product_name,
+				total_diff_days,
+				number_of_purchases,
+				average_time_between_purchases,
+				total_volume,
+				total_sales,
+				sales_rank
 			from cte3
 			where product_name in (
 					select 
@@ -153,6 +160,6 @@ as
 end
 
 exec ineffective_items @sub_category = 'chairs'
-
+drop procedure ineffective_items
 
 
