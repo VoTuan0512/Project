@@ -1,1 +1,0 @@
-link_presentation = 'https://docs.google.com/presentation/d/1HFliAd_PkuTcIIBGYh1jG5NegDQZOsvK--wqffWOyfw/edit?usp=sharing'
