@@ -7,9 +7,9 @@
 --3. Sales volume growth rate
 --4. Average selling price by Sub-Category
 --5. Top 5 products sales by Sub-Category
---6. Sales to discount
--- sales ratio from discount by Sub-Category each month
--- discount ratio to sales by Sub-Category each month
+--6. 
+-- Sales ratio from discount by Sub-Category each month
+-- Discount ratio to sales by Sub-Category each month
 --7. Evaluate ineffective products based on factors such as sales, sales rank ,number of purchases, and average time between purchases, total volume
 
 --1. Sales by Sub-Category
@@ -130,8 +130,8 @@ from cte3
 where sales_rank between 1 and 5
 
 
---6. Sales to discount ratio by Sub-Category each month
--- sales ratio from discount by Sub-Category each month
+--6. 
+-- Sales ratio from discount by Sub-Category each month
 
 with cte4 as (
     select
@@ -163,7 +163,7 @@ select
 from cte4 join cte5 
     on cte4.month = cte5.month
 
--- discount ratio to sales by Sub-Category each month
+-- Discount ratio to sales by Sub-Category each month
 with cte6 as (
     select 
         month([order date]) as month,
