@@ -130,7 +130,7 @@ from cte3
 where sales_rank between 1 and 5
 
 
---6. Sales to discount by Sub-Category each month
+--6. Sales to discount ratio by Sub-Category each month
 -- sales ratio from discount by Sub-Category each month
 
 with cte4 as (
