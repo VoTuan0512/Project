@@ -15,9 +15,9 @@ Some business questions served to build the dashboard:
 - What is the average selling price of sub-categories in 2017 ?
 - How much is the sales contribution in regions ?
 - What is the most commonly used ship-mode for each sub-category ?
-- What is the ratio of sales from discounts compared to total sales?
+- What is the ratio of sales from discounts compared to total sales ?
 - What is the sales volume for each sub-category ?
-- What discount rates are commonly applied across sub-categories?
+- What discount rates are commonly applied across sub-categories ?
 - Top 5 products has highest sales for each sub-category ?
   
 ## Part 1: Summary of Insights
