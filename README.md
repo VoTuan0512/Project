@@ -7,8 +7,8 @@ They're launching 4 sub-categories are Bookcases, Chairs, Furnishings and Tables
 They aim to 3 customer segment are Consumers, Home Office and Corporate. These customer segment are in four regions are Central , East, South, and West
 
 There are two parts in my project. 
-- Part 1, It'll convey the overview status of business as well as the expenditure capability per order of consumers from 2014 to 2017 using Python
-- Part 2, I'll show you the operational dashboard of sub-category in 2017 using SQL and Tableau. Target users: operations professional.
+- Part 1, It'll convey the overview status of business as well as the expenditure capability per order of consumers from 2014 to 2017 using Python. Check it out [here](https://github.com/VoTuan0512/Project/blob/master/retail_furniture_project.ipynb)
+- Part 2, I'll show you the operational dashboard of sub-category in 2017 using SQL and Tableau. Target users: operations professional. Check it out [here](https://github.com/VoTuan0512/Project/blob/master/analytical_indicators_of_retail_furniture_project.sql)
 
 Some indicators in the dashboard:
 - Sales Summary
@@ -21,8 +21,7 @@ Some indicators in the dashboard:
 - Analysis of Sales by Quantity and Discount
 - Top 5 Products Sales
   
-Part 1: You can access here 
-Summary of Insights
+Part 1: Summary of Insights
 
 **Status of the business:**
 - The operational situation of the business from 2014 to 2017 showed positive results in terms of revenue.
@@ -35,4 +34,8 @@ The West region was the largest revenue generator, with the company's main produ
 The Consumer segment in the East region has experienced the most significant decrease in spending per order for the sub-category Chairs and Furnishings compared to other regions in 2017.
 
 Part 2:
+
+
+
+
 
